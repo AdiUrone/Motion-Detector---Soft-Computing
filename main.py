@@ -88,7 +88,7 @@ while True:
             break
 
     if motion_detected:
-        cv2.putText(frame, "Aditya Lama Motion Detected!", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2,
+        cv2.putText(frame, "Motion Detected!", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2,
                     cv2.LINE_AA)
         motion_count += 1
 
